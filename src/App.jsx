@@ -1,7 +1,7 @@
 
 import './App.css'
 // import ToDo from './todo'
-// import Food from './food'
+import Food from './food'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <>
 
       <h1>React Core concepts</h1>
-      {/* <Food isHungry={true}></Food> */}
+      <Food isHungry={true}></Food>
 
 
       {/* <ToDo task="Learn React"
@@ -22,7 +22,7 @@ function App() {
       <ToDo task="Take a shower"
         isDone={true}
         time="100"></ToDo> */}
-      <Student></Student>
+      {/* <Student></Student>
       <Student></Student>
       <Person></Person>
       <Devloper name="Mozumder" tech="JS"></Devloper>
@@ -34,7 +34,7 @@ function App() {
       <Player name='tamim' runs='5000'></Player>
       <Player name='mushi' runs='5000'></Player>
       <Salami event='Roja Eid' amount='20'></Salami>
-      <Salami event='Graduation' ></Salami>
+      <Salami event='Graduation' ></Salami> */}
     </>
   )
 }
