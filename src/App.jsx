@@ -10,8 +10,8 @@ function App() {
   return (
     <>
 
-      {/* <h1>React Core concepts</h1>
-      <Food isHungry={true}></Food> */}
+      <h1>React Core concepts</h1>
+      {/* <Food isHungry={true}></Food> */}
 
 
       <ToDo task="Learn React"
