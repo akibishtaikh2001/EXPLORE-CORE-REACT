@@ -1,6 +1,6 @@
 
 import './App.css'
-import ToDo from './todo'
+// import ToDo from './todo'
 // import Food from './food'
 
 function App() {
@@ -14,15 +14,15 @@ function App() {
       {/* <Food isHungry={true}></Food> */}
 
 
-      <ToDo task="Learn React"
+      {/* <ToDo task="Learn React"
         isDone={true}
         time={time}></ToDo>
       <ToDo task="Revise JS"
         isDone={false}></ToDo>
       <ToDo task="Take a shower"
         isDone={true}
-        time="100"></ToDo>
-      {/* <Student></Student>
+        time="100"></ToDo> */}
+      <Student></Student>
       <Student></Student>
       <Person></Person>
       <Devloper name="Mozumder" tech="JS"></Devloper>
@@ -34,7 +34,7 @@ function App() {
       <Player name='tamim' runs='5000'></Player>
       <Player name='mushi' runs='5000'></Player>
       <Salami event='Roja Eid' amount='20'></Salami>
-      <Salami event='Graduation' ></Salami> */}
+      <Salami event='Graduation' ></Salami>
     </>
   )
 }
