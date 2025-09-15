@@ -1,11 +1,21 @@
 
-import './App.css'
-import ToDo from './todo'
-// import Food from './food'
+import './App.css';
+import ToDo from './todo';
+import Actor from './Actor';
+import Singer from './Singer'
+// import Food from './food';
 
 function App() {
 
-  const time = 50;
+  const actors = ['Bappa Raj', 'Omar sunny', 'Salman Shah', 'Jasim', 'Anwar', 'Rajjak'];
+
+  const singers = [
+    { id: 1, name: 'Dr. Mahfuz', age: 68 },
+    { id: 2, name: 'Tahasan', age: 45 },
+    { id: 3, name: 'shuvro', age: 57 },
+  ]
+
+  // const time = 50;
 
   return (
     <>
@@ -13,15 +23,25 @@ function App() {
       <h1>React Core concepts</h1>
       {/* <Food isHungry={true}></Food> */}
 
+      {
+        singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
+      }
 
-      <ToDo task="Learn React"
+
+      {/* {
+        actors.map(actor => <Actor actor={actor}></Actor>)
+      } */}
+
+
+
+      {/* <ToDo task="Learn React"
         isDone={true}
         time={time}></ToDo>
       <ToDo task="Revise JS"
         isDone={false}></ToDo>
       <ToDo task="Take a shower"
         isDone={true}
-        time=""></ToDo>
+        time=""></ToDo> */}
       {/* <Student></Student>
       <Student></Student>
       <Person></Person>
